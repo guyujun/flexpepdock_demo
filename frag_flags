@@ -1,0 +1,10 @@
+-in:file:vall /usr/local/rosetta_src_2020.11.61179_bundle/main/tools/fragment_tools/vall.jul19.2011.gz
+-frags:describe_fragments 	frags.fsc
+-frags:frag_sizes 	9	5 3
+-frags:n_candidates		2000
+-frags:n_frags			500
+-in:file:fasta test.fasta
+-out:file:frag_prefix		frags
+-frags:ss_pred			test.ss2  psipred 
+-frags:scoring:config		score.cfg
+-frags:bounded_protocol	true
